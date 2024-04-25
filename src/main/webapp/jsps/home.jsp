@@ -21,7 +21,7 @@
 		<hr>
 			<div style="text-align: center;">
 				<span>
-					<img src="images/FEWA_LOGO.png" alt="" width="200">
+					<img align="center" src="images/FEWA_LOGO.png" alt="" width="200">
 				</span>
 				<span style="font-weight: bold;">
 					FEWA IT CONSULTING, 
