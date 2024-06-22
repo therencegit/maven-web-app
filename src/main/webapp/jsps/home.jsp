@@ -25,7 +25,7 @@
 				</span>
 				<span style="font-weight: bold;">
 					FEWA IT CONSULTING, 
-					Niagara Falls, Canada
+					Toronto, Canada
 					+1 (289) 828-4776,
 					fewaitconsulting@gmail.com
 					<br>
