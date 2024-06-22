@@ -26,7 +26,7 @@
 				<span style="font-weight: bold;">
 					FEWA IT CONSULTING, 
 					Niagara Falls, Canada
-					+1 (289) 257-6694,
+					+1 (289) 828-4776,
 					fewaitconsulting@gmail.com
 					<br>
 					<a href="mailto:fewaitconsulting@gmail.com">Mail to FEWA IT CONSULTING</a>
