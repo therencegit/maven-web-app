@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+.<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>FEWA IT CONSULTING Releases Nexus Repository</name>
-	      <url> http://3.89.7.161:8081/repository/fewa_web_app/</url>
+	      <url> http://52.90.117.30:8081/repository/fewa_web_app/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>FEWA IT CONSULTING Snapshot Nexus Repository </name>
-	      <url>http://3.89.7.161:8081/repository/fewa_web_app_snapshot/</url>
+	      <url>http://52.90.117.30:8081/repository/fewa_web_app/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
