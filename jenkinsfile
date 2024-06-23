@@ -1,0 +1,34 @@
+
+node {
+    def mavenHome = tool name: 'maven'
+ 
+    stage('1 Clone Code') {
+        git branch: 'main', url: 'https://github.com/fewaitconsulting/maven-web-app'
+    }
+ 
+    stage('2 Test & Build') {
+        sh "${mavenHome}/bin/mvn clean package"
+    }
+ 
+    stage('3 Code Quality') {
+        sh "${mavenHome}/bin/mvn sonar:sonar"
+    }
+ 
+    stage('4 Upload Artifacts') {
+        sh "${mavenHome}/bin/mvn deploy"
+    }
+ 
+    stage('5 Deploy to UAT') {
+	sh "echo 'Deploy to UAT'"
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat', path: '', url: 'http://54.80.203.148:8177/')], contextPath: null, onFailure: false, war: 'target/*war'
+}
+ 
+ 
+    stage('6 Deploy to Prod') {
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat', path: '', url: 'http://54.80.203.148:8177/')], contextPath: null, onFailure: false, war: 'target/*war'
+    }
+ 
+    stage('7 Email Notification') {
+        emailext body: 'Your pipeline was successful', recipientProviders: [developers()], subject: 'Pipeline result', to: 'fewaitconsulting@gmail.com'
+    }
+}
