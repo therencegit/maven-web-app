@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>FEWA IT CONSULTING Releases Nexus Repository</name>
-	      <url>http://52.55.250.48:8081/repository/fewa_web_app/</url>
+	      <url>http://54.144.92.80:8081/repository/therence-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>FEWA IT CONSULTING Snapshot Nexus Repository </name>
-	      <url>http://52.55.250.48:8081/repository/fewa_web_app_snapshot/</url>
+	      <url>http://54.144.92.80:8081/repository/therence-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
