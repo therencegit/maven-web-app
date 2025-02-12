@@ -27,7 +27,7 @@
 					FEWA IT CONSULTING, 
 					Toronto, Canada
 					+1 (289) 828-4776,
-					frank.takang@yahoo.cam
+					frank.takang@gmail.cam
 					<br>
 					<a href="mailto:fewaitconsulting@gmail.com">Mail to FEWA IT CONSULTING</a>
 				</span>
